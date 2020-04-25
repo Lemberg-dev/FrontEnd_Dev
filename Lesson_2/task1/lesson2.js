@@ -8,4 +8,3 @@ if (x > 0) {
     alert( 0 );
 }
 
-//add_test_massage
