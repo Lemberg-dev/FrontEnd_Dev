@@ -7,3 +7,5 @@ if (x > 0) {
 } else {
     alert( 0 );
 }
+
+//add_test_massage
