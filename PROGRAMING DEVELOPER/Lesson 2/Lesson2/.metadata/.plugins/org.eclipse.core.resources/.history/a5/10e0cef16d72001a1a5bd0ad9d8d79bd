@@ -1,0 +1,14 @@
+package lesson_4;
+public class Random 
+{
+	public static void main(String[] args) {
+		for(int i=1; i<=10; i++) {
+  			double x = Math.random();
+			int xNew = (int)(x*10);
+			xNew = Math.max(xNew, 4);
+			xNew = Math.min(xNew, 6);
+			System.out.println("Random value number "+i + " is " + xNew);
+		}
+	   }
+
+	}

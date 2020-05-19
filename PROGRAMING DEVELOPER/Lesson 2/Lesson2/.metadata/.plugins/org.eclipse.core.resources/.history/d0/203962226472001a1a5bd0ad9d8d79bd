@@ -1,0 +1,37 @@
+package lesson_4;
+
+public class ApplicationLoops {
+
+	
+	public static void main(String[] args) {
+		
+		int sum = 1;
+		while(sum <=110) {
+		//	System.out.println(sum);
+			sum +=2;
+		}
+		
+		for(int a=95;a>0;a-=5){
+        //    System.out.print(a+" ");
+		}
+	   //int a = 14;
+	   //if (a%2 == 0) System.out.println("парне число");
+	   // else System.out.println( "непарне число");
+		
+		double n=8.5;
+        double m=11.45;
+        int a=10;
+        double b=Math.abs(a-n);
+        double c=Math.abs(a-m);  
+        if (b==c){
+            System.out.println("Числа "+n +" и "+m + " равноудалены от "+a);
+        }
+        if(b>c){
+            System.out.println("Число "+m+" найближче до "+a);
+        }
+        if (b<c) {
+            System.out.println("Число "+n+" найближче до "+a);
+        }
+	}
+	
+}

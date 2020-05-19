@@ -1,0 +1,27 @@
+package lesson_4;
+public class Random 
+{
+	public static void main(String[] args) {
+	      double[] val = new double[10];
+	      double min = Double.MAX_VALUE;
+	      double max = Double.MIN_VALUE;
+	      System.out.println("Масив випадкових чисел");
+	      for (int i = 0; i < val.length; i++) {
+	         val[i] = new Random().nextInt(100);
+	         System.out.println(val[i]);
+	      }
+	      for (int i = 0; i < val.length; i++) {
+	         if (val[i] < min)
+	            min = val[i];
+	         if (val[i] > max)
+	            max = val[i];
+	      }
+	      System.out.println("мінімальне значення= " + min);
+	      System.out.println("максимальне значення = " + max);
+	   }
+
+	private double nextInt(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	}

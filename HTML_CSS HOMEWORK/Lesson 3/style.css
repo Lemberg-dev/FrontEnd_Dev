@@ -1,0 +1,19 @@
+body {
+    background-image:url(bg.jpg) ;
+    background-size:cover;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.pro{
+    letter-spacing: 5px;
+}
+.leo{
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+.zmist{
+    font-size: 25px;
+}

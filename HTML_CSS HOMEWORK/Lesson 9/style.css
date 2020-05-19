@@ -1,0 +1,607 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: tahoma;
+    src: url(InstallFont.ttf);
+}
+
+body {
+    background-color: #282828;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+div.container {
+    width: 960px;
+    height: 890px;
+    background-image: url(images/background.jpg);
+    margin: 0 auto;
+}
+
+header {
+    width: 960px;
+    height: 200px;
+}
+
+img.logo {
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+img.palm {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -120px
+}
+
+p.leftlogo {
+    font-size: 10.16px;
+    color: white;
+    margin-left: 170px;
+    margin-top: 12px;
+}
+
+p.rightlogo {
+    color: white;
+    float: right;
+    font-size: 8.47px;
+    margin-right: 85px;
+    margin-top: -25px;
+}
+
+p.rightlogo1 {
+    color: white;
+    float: right;
+    font-size: 8.47px;
+    margin-right: 60px;
+    margin-top: -25px;
+}
+
+h3 {
+    font: tahoma;
+    font-size: 10.16px;
+    margin-top: -43px;
+    margin-right: 95px;
+    float: right;
+    color: white;
+    font-weight: bold;
+}
+
+img.india {
+    width: 260px;
+    height: 170px;
+    margin-top: 0px;
+    margin-left: 71px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+}
+
+p.indiaP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 190px;
+    margin-top: 5px;
+
+}
+
+img.nepal {
+    width: 260px;
+    height: 170px;
+    margin-top: -195px;
+    margin-left: 350px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+    display: block;
+}
+
+p.nepalP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 450px;
+    margin-top: 5px;
+
+}
+
+img.tibet {
+    width: 260px;
+    height: 170px;
+    margin-top: -193px;
+    margin-left: 630px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+    display: block;
+}
+
+p.tibetP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 740px;
+    margin-top: 5px;
+
+}
+
+img.bhutal {
+    width: 260px;
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+}
+
+p.bhutalP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 175px;
+    margin-top: 5px;
+}
+
+img.sri {
+    width: 260px;
+    height: 170px;
+    margin-top: -195px;
+    margin-left: 350px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+    display: block;
+}
+
+p.sriP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+
+img.maldives {
+    width: 260px;
+    height: 170px;
+    margin-top: -193px;
+    margin-left: 630px;
+    border: 1.5px solid #242524;
+    outline: 3px solid #9b9b9b;
+    display: block;
+}
+
+p.maldivesP {
+    font: tahoma;
+    color: #b4b4b4;
+    font-size: 15.24px;
+    margin-left: 730px;
+    margin-top: 5px;
+}
+
+footer {
+    width: 960px;
+    height: 250px;
+
+}
+
+footer h3 {
+    font-size: 10.16px;
+    color: white;
+    margin-right: 400px;
+    margin-top: 240px
+}
+@media screen and (max-width: 768px) {
+
+    div.container {
+        width: 700px;
+        height: 750px;
+    }
+
+    header {
+        width: 410px;
+        height: 40px;
+        margin-left: -60px;
+        margin-top: -110px;
+    }
+
+    img.palm {
+        position: absolute;
+        margin-top: 85px;
+        margin-left: -150px
+    }
+
+    p.leftlogo {
+        margin-left: 180px;
+        margin-top: 12px;
+    }
+
+    p.rightlogo {
+        margin-right: -305px;
+        margin-top: -25px;
+    }
+
+    p.rightlogo1 {
+        margin-right: -330px;
+        margin-top: -25px;
+    }
+
+    header h3 {
+        margin-top: -39px;
+        margin-right: -295px;
+    }
+
+    img.india {
+        width: 250px;
+        height: 120px;
+        margin-top: 181px;
+        margin-left: 80px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+    }
+
+    p.indiaP {
+        margin-left: 190px;
+        margin-top: 5px;
+    }
+
+    img.nepal {
+       width: 250px;
+        height: 120px;
+        margin-top: -145px;
+        margin-left: 370px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.nepalP {
+        margin-left: 480px;
+        margin-top: 5px;
+    }
+
+    img.tibet {
+        width: 250px;
+        height: 120px;
+        margin-top: 20px;
+        margin-left: 81px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.tibetP {
+        margin-left: 180px;
+        margin-top: 5px;
+
+    }
+
+    img.bhutal {
+        width: 250px;
+        height: 120px;
+        margin-top: -143px;
+        margin-left: 370px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.bhutalP {
+        margin-left: 470px;
+        margin-top: 5px;
+    }
+
+    img.sri {
+        width: 250px;
+        height: 120px;
+        margin-top: 20px;
+        margin-left: 80px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.sriP {
+        margin-left:160px;
+        margin-top: 5px;
+    }
+
+    img.maldives {
+        width: 250px;
+        height: 120px;
+        ;
+        margin-top: -143px;
+        margin-left: 370px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.maldivesP {
+        margin-left: 470px;
+        margin-top: 5px;
+    }
+
+    footer {
+        width: 400px;
+        height: 70px;
+
+    }
+
+    footer h3 {
+        margin-right: -40px;
+        margin-top: 50px
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    div.container {
+        width: 400px;
+        height: 630px;
+    }
+
+    header {
+        width: 110px;
+        height: 40px;
+        margin-left: -60px;
+        margin-top: -110px;
+    }
+
+    img.palm {
+        position: absolute;
+        margin-top: -85px;
+        margin-left: 200px
+    }
+
+    p.leftlogo {
+        margin-left: 180px;
+        margin-top: 12px;
+    }
+
+    p.rightlogo {
+        margin-right: -305px;
+        margin-top: -25px;
+    }
+
+    p.rightlogo1 {
+        margin-right: -330px;
+        margin-top: -25px;
+    }
+
+    header h3 {
+        margin-top: -39px;
+        margin-right: -295px;
+    }
+
+    img.india {
+        width: 160px;
+        height: 80px;
+        ;
+        margin-top: 180px;
+        margin-left: 41px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+    }
+
+    p.indiaP {
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+
+    img.nepal {
+        width: 160px;
+        height: 80px;
+        margin-top: -105px;
+        margin-left: 220px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.nepalP {
+        margin-left: 280px;
+        margin-top: 5px;
+    }
+
+    img.tibet {
+        width: 160px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 41px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.tibetP {
+        margin-left: 110px;
+        margin-top: 5px;
+
+    }
+
+    img.bhutal {
+        width: 160px;
+        height: 80px;
+        margin-top: -103px;
+        margin-left: 220px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.bhutalP {
+        margin-left: 275px;
+        margin-top: 5px;
+    }
+
+    img.sri {
+        width: 160px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.sriP {
+        margin-left:90px;
+        margin-top: 5px;
+    }
+
+    img.maldives {
+        width: 160px;
+        height: 80px;
+        ;
+        margin-top: -103px;
+        margin-left: 220px;
+        border: 1.5px solid #242524;
+        outline: 3px solid #9b9b9b;
+        display: block;
+    }
+
+    p.maldivesP {
+        margin-left: 270px;
+        margin-top: 5px;
+    }
+
+    footer {
+        width: 400px;
+        height: 70px;
+
+    }
+
+    footer h3 {
+        margin-right: 100px;
+        margin-top: 50px
+    }
+
+}

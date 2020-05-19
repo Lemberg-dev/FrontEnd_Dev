@@ -1,0 +1,547 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "leaguegothic";
+    src: url(fonts/leaguegothic.ttf);
+}
+
+@font-face {
+    font-family: "opensansextra";
+    src: url(fonts/opensansextra.ttf);
+}
+
+@font-face {
+    font-family: "opensanslight";
+    src: url(fonts/opensanslight.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    max-width: 2336px;
+    margin: 0 auto;
+    font-family: opensanslight, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    background: #ececec;
+}
+div.container{
+    width: 1060px;
+    height: 2209px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+div.firstmiddle {
+    width: 1060px;
+    height: 760px;
+    background: url(images/top_bg1.jpg);
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 48px;
+    color: white;
+    padding-top: 65px;
+    margin-left: 50px;
+    font-family: "leaguegothic";
+    text-shadow: 0px 2px 3px #555;
+}
+iframe{
+    position:absolute;
+    opacity: 0;
+    margin-top: -220px;
+    margin-left:804px;
+}
+iframe:hover{
+    position:relative;
+    opacity:1;
+    margin-top: -220px;
+    margin-left:804px;
+}
+header span {
+    color: #4c3656;
+    text-shadow: none;
+}
+
+header ul {
+    margin-left: 380px;
+    margin-top: -30px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 43px;
+
+}
+
+header a {
+    font-family: "leaguegothic";
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    -webkit-text-decoration: underline #edbfff;
+            text-decoration: underline #edbfff;
+}
+
+div.main {
+    width: 1060px;
+    height: 400px;
+    margin-top: 170px;
+}
+
+div.inmain {
+    width: 100%;
+    height: 400px;
+    background: black;
+    margin-top: 170px;
+    opacity: 0.3;
+}
+
+#iphone {
+    position: relative;
+    float: right;
+    margin-right: 77px;
+    margin-top: -420px
+}
+
+p.first {
+    position: relative;
+    font-family: "leaguegothic";
+    margin-top: -320px;
+    font-size: 60px;
+    color: white;
+}
+
+p.second {
+    position: relative;
+    font-family: "leaguegothic";
+    font-size: 32px;
+    margin-top: 21px;
+    color: #edbfff;
+}
+
+p.third {
+    position: relative;
+    width: 660px;
+    font-size: 18px;
+    margin-top: 21px;
+    color: white;
+}
+
+#scroll {
+    margin-left: 790px;
+    margin-top: 60px;
+}
+div.about{
+    width: 1060px;
+    height: 340px;
+    background:-webkit-gradient(linear, left top, left bottom, from(#745083), to(#34263b));
+    background:-o-linear-gradient(#745083, #34263b);
+    background:linear-gradient(#745083, #34263b);
+    -webkit-box-shadow: -1px 9px 9px -3px rgba(0,0,0,0.71);
+box-shadow: -1px 9px 9px -3px rgba(0,0,0,0.71);
+}
+img.key{
+    margin-top: 86px;
+    float: left;
+}
+p.company{
+    display: inline-block;
+    font-family: "leaguegothic";
+    color: white;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 5px;
+}
+p.text{
+    width: 227px;
+    height: 117px;
+    margin-top: 10px;
+    font-family: opensanslight, sans-serif;
+    color: white;
+    margin-left: 34px;
+
+}
+a.read{
+    display: block;
+    font-family: "leaguegothic";
+    text-decoration: none;
+   margin-left: 200px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+}
+a.read:hover{
+     text-shadow: -1px -1px 7px #FFFFFF;
+}
+img.info{
+    display: block;
+    margin-left: 410px;
+     margin-top: -220px;
+}
+p.company1{
+    margin-left: 450px;
+     margin-top: -28px;
+    font-family: "leaguegothic";
+    color: white;
+    font-size: 30px;
+}
+p.text1{
+     width: 227px;
+    height: 117px;
+    margin-top: 10px;
+    font-family: opensanslight, sans-serif;
+    color: white;
+    margin-left: 450px;
+}
+
+a.read1{
+    display: block;
+    font-family: "leaguegothic";
+    text-decoration: none;
+   margin-left: 620px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+}
+a.read1:hover{
+     text-shadow: -1px -1px 7px #FFFFFF;
+}
+img.music{
+    display: block;
+    margin-left: 790px;
+    margin-top: -220px;
+}
+p.company2{
+    margin-left: 830px;
+     margin-top: -28px;
+    font-family: "leaguegothic";
+    color: white;
+    font-size: 30px;
+}
+p.text2{
+     width: 227px;
+    height: 117px;
+    margin-top: 10px;
+    font-family: opensanslight, sans-serif;
+    color: white;
+    margin-left: 830px;
+}
+a.read2{
+    display: block;
+    font-family: "leaguegothic";
+    text-decoration: none;
+   margin-left: 990px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+}
+a.read2:hover{
+     text-shadow: -1px -1px 7px #FFFFFF;
+}
+
+.bull img{
+    margin-top: 100px;
+}
+.bull h3{
+    position: relative;
+    font-size: 30px;
+    font-family: "leaguegothic";
+    margin-top: -260px;
+    margin-left: 70px;
+}
+.bull span{
+    color:  #edbfff;
+}
+.bull p{
+    width: 380px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family:sans-serif;
+}
+.radio2{
+    display: block;
+    margin-left: 190px;
+}
+
+.updates{
+    float: right;
+    margin-top: -360px;
+    margin-right: 50px;
+    width: 450px;
+
+}
+.updates h3{
+       font-size: 30px;
+    font-family: "leaguegothic";
+}
+.updates img{
+    float: left;
+    margin: 10px;
+}
+.updates h5{
+    font-weight: bold;
+    font-family: "opensansextra";
+    margin-top: 5px;
+}
+.updates p{
+    font-size: 16px;
+    font-family:sans-serif;
+}
+.updates a{
+    display: block;
+    font-family: "leaguegothic";
+    color: black;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 18px;
+}
+div.lables {
+    width: 1060px;
+    height: 160px;
+    margin-top:40px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 1px;
+}
+
+.lables img{
+    margin-top: 40px;
+    margin-left: 80px;
+     margin-bottom: 40px;
+}
+.copy {
+    background:#ececec;
+    position: absolute;
+    width: 1060px;
+    height: 320px;
+}
+.copy h3{
+     font-size: 48px;
+    font-family: "leaguegothic";
+     margin-top: 100px;
+    color: #454545;
+}
+.copy span{
+    color: #c2c2c2;
+}
+
+p.right{
+    font-style: italic;
+      font-family:serif;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #d0d0d0;
+    text-shadow: 2px 2px 2px #FFFFFF;
+}
+.copy p{
+    width: 260px;
+}
+
+h2.head{
+    margin-left: 400px;
+    margin-top: -200px;
+    font-size: 30px;
+    font-family: "leaguegothic";
+    color: #454545;
+}
+p.right2{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+h2.head2{
+     margin-left: 800px;
+    margin-top: -190px;
+    font-size: 30px;
+    font-family: "leaguegothic";
+    color: #454545;
+}
+p.right1,.right2,.right3{
+      overflow: hidden;
+   -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+     display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+p.right3{
+    margin-left: 800px;
+    margin-top: 20px;
+    width: 250px;
+}
+footer{
+    margin-top: 320px;
+}
+
+footer  ul {
+    margin-left: -30px;
+    margin-top: -70px;
+}
+
+footer  li {
+    display: inline-block;
+    margin-left: 43px;
+
+}
+
+footer  a {
+    font-family: "leaguegothic";
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    -webkit-text-decoration: underline #edbfff;
+            text-decoration: underline #edbfff;
+}
+footer p{
+    font-size: 12px;
+    margin-left: 920px;
+    color: white;
+}
+footer span{
+    font-weight: bold;
+}

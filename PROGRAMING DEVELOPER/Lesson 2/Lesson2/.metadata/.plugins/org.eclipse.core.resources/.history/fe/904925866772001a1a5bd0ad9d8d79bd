@@ -1,0 +1,70 @@
+package lesson_4;
+
+public class ApplicationLoops {
+
+	
+	public static void main(String[] args) {
+		
+		//виводить на екран перші 55 елементів послідовності 1 3 5 7 9 11 13 15 17
+		int sum = 1;
+		while(sum <=110) {
+		//	System.out.println(sum);
+			sum +=2;
+		}
+		
+		
+		
+		//виводить на екран всі невід'ємні елементи послідовності 90 85 80 75 70 65 60
+		for(int a=95;a>0;a-=5){
+        //    System.out.print(a+" ");
+		}
+		
+		
+		
+		//перевіряє і повідомляє на екран, чи є ціле число записане в змінну n, парним або непарним
+	   //int a = 14;
+	   //if (a%2 == 0) System.out.println("парне число");
+	   // else System.out.println( "непарне число");
+		
+		
+		
+		//виводить на екран найближче до 10 з двох чисел, записаних в змінні m і n. Наприклад, серед чисел 8,5 і 11,45 найближче до десяти 11,45.
+		double n=8.5;
+        double m=11.45;
+        int a=10;
+        double b=Math.abs(a-n);
+        double c=Math.abs(a-m);  
+        if (b==c){
+           // System.out.println("Числа "+n +" и "+m + " рівновіддалені від "+a);
+        }
+        if(b>c){
+           // System.out.println("Число "+m+" найближче до "+a);
+        }
+        if (b<c) {
+            //System.out.println("Число "+n+" найближче до "+a);
+        }
+        
+        
+        
+        //наповнить масив числовими даними в хаотичному порядку, і знайде найбільше та найменше значення з масиву. 
+        
+        double[] val = new double[10];
+        double min = Double.MAX_VALUE;
+        double max = Double.MIN_VALUE;
+        System.out.println("випадкові числа...");
+        for (int i = 0; i < val.length; i++) {
+           val[i] = new ApplicationLoops().nextInt(100);
+           System.out.println(val[i]);
+        }
+        for (int i = 0; i < val.length; i++) {
+           if (val[i] < min)
+              min = val[i];
+           if (val[i] > max)
+              max = val[i];
+        }
+        System.out.println("найменше значення = " + min);
+        System.out.println("найбільше значення = " + max);
+	
+	}
+	
+}

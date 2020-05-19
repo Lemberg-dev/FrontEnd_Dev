@@ -1,0 +1,18 @@
+#select database();
+#select * from book;
+#select * from book where id=5 or id=10 or id=13;
+#select * from book where qty_page>150;
+#select * from book where age_author>30;
+#select * from book where author_awards= "null";
+#select * from book where author_email="sk@mail.ua";
+#select * from book where isbn="is17-2125";
+#select * from book where categoria= "історична";
+#select * from book where qty_page>200 and age_author>25;
+#select * from book where categoria = "комедія" or categoria= "драма";
+#select * from book order by name_book asc;
+#select * from book order by author_email asc;
+#select * from book order by qty_page desc;
+#select distinct categoria from book;
+#select distinct author_name from book;
+#select * from book where date_of_publications> 2000-01-01;
+#select * from book where date_of_publications< 2010-01-01;

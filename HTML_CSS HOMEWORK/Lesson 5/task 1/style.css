@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+ul.menu1{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+ul.menu1 li{
+    float: left;
+    background-color: yellow;
+    border: 1px solid black;
+    width: 264px;
+    text-align: center;
+
+}
+ul.menu1 a{
+    display:inline-block;
+    padding: 10px 30px;
+}
+ul.menu2{
+    margin: 10px;
+    font-style: italic;
+
+}
+h1{
+    text-align: center;
+}
+img{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#header{
+    clear:both;
+}
+h2{
+    color: blue;
+}

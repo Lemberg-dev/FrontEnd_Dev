@@ -1,0 +1,22 @@
+package lesson_4;
+
+public class ApplicationLoops {
+
+	
+	public static void main(String[] args) {
+		
+		int sum = 1;
+		while(sum <=110) {
+		//	System.out.println(sum);
+			sum +=2;
+		}
+		
+		for(int a=95;a>0;a-=5){
+        //    System.out.print(a+" ");
+		}
+		int a = 14;
+	      if (a%2 == 0) System.out.println(" a " + "парне число");
+	      else System.out.println(" a " + "непарне число");
+	}
+	
+}

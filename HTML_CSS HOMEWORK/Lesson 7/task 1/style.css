@@ -1,0 +1,176 @@
+body {
+    background: url(images/bg.jpg);
+    font-family: sans-serif;
+}
+
+.container img {
+    margin-left: 400px;
+    margin-top: 150px;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    margin-left: 426px;
+    margin-top: -285px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+hr {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: -250px;
+    width: 550px;
+    margin-top: 20;
+
+
+}
+
+span.black {
+    color: black;
+}
+
+span.gray {
+    color: #b9b9b9;
+}
+
+span.blue {
+    color: #2944ab;
+}
+
+span.aqua {
+    color: #30cad0;
+}
+
+div.left {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    margin-left: 428px;
+    margin-top: -250px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+input.blue[type="bottom"] {
+    color: white;
+    background: url(images/fb-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#668dc8), to(#4870ab));
+    background: url(images/fb-icon.png) no-repeat, -o-linear-gradient(#668dc8, #4870ab);
+    background: url(images/fb-icon.png) no-repeat, linear-gradient(#668dc8, #4870ab);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 220px;
+    height: 35px;
+    margin: 15px 0px 20px 15px;
+    border-radius: 10px;
+    background-position: 10px;
+    padding-left: 30px;
+}
+
+input.aqua[type="bottom"] {
+    color: white;
+    background: url(images/twitter-icon.png) no-repeat, -webkit-gradient(linear, left top, left bottom, from(#53d0d5), to(#36b3b8));
+    background: url(images/twitter-icon.png) no-repeat, -o-linear-gradient(#53d0d5, #36b3b8);
+    background: url(images/twitter-icon.png) no-repeat, linear-gradient(#53d0d5, #36b3b8);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 220px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-position: 10px;
+    padding-left: 30px;
+}
+
+div.right {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: -210px;
+}
+
+input.login,
+input.password,
+input.confirm {
+    position: relative;
+    width: 220px;
+    height: 30px;
+    left: 30px;
+    border-radius: 8px;
+    top: 10px;
+    background: #ebebeb;
+    outline: none;
+}
+
+input.login {
+    background: url(images/user-icon.png) left no-repeat;
+    background-position: 10px;
+}
+
+input.password {
+    background: url('images/password-icon.png') left no-repeat;
+    top: 25px;
+    background-position: 10px;
+}
+
+input.confirm {
+    width: 100px;
+    height: 30px;
+    top: 40px;
+    left: 150px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fad965), to(#d1b03d));
+    background: -o-linear-gradient(#fad965, #d1b03d);
+    background: linear-gradient(#fad965, #d1b03d);
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: darkslategray;
+}
+
+input.confirm:hover {
+    cursor: pointer;
+}
+
+p.forgot {
+    font-size: 12px;
+    position: relative;
+    top: 40px;
+    left: 130px;
+    color: gray;
+}
+#top {
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    outline: none;
+    transform: rotate(90deg);
+    width: 80px;
+    position: absolute;
+    left: 247px;
+    top: 570px;
+}
+
+#middle {
+    position: absolute;
+    left: 705px;
+    top: 370px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+#botom {
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    outline: none;
+    transform: rotate(90deg);
+    width: 80px;
+    position: absolute;
+    left: 247px;
+    top: 690px;
+}

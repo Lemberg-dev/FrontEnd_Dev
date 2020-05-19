@@ -1,0 +1,18 @@
+package lesson_4;
+
+public class ApplicationLoops {
+
+	
+	public static void main(String[] args) {
+		
+		int sum = 1;
+		while(sum <=55) {
+			System.out.println(sum);
+			sum +=2;
+		}
+		
+		
+		
+	}
+	
+}
