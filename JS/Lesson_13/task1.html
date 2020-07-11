@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .conteiner {
+        margin: 0 auto;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="conteiner">
+        <p id="item"></p>
+    </div>
+
+
+</body>
+<script>
+    let name = prompt("Input user name");
+    let elem = document.getElementById('item');
+    if (!name) {
+        document.write(`User name - Anonim`);
+
+    } else {
+        elem.innerHTML = `User name - ${name}`;
+    }
+</script></html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="button" value="Кнопка" id="button">
+    </form>
+
+    <ul>
+        <li><a class="red" href="http://google.com">http://google.com</a></li>
+        <li><a href="/tutorial">/tutorial.html</a></li>
+        <li><a href="local/path">local/path</a></li>
+        <li><a class="red" href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+        <li><a class="red" href="http://nodejs.org">http://nodejs.org</a></li>
+        <li><a class="red" href="http://internal.com/test">http://internal.com/test</a></li>
+    </ul>
+</body>
+<script>
+    document.getElementById("button").onclick = function() {
+        let coll = document.getElementsByClassName("red");
+        for (let i = 0, len = coll.length; i < len; i++) {
+            coll[i].style.color = "red";
+        }
+    };
+</script></html>
