@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .conteiner {
+        margin: 0 auto;
+        width: 800px;
+        padding: 15px;
+        border: 1px solid;
+        text-align: center;
+    }
+
+    #button {
+        margin-top: 30px;
+    }
+
+    #list {
+        margin-top: 50px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        border: 1px solid;
+        display: inline-block;
+        width: 200px;
+        font-size: 20px;
+        margin-bottom: 3px;
+        box-shadow: 0px 0px 5px;
+    }
+
+    #hiddenBlock {
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="conteiner">
+        <div class="taskText">
+            <button id="textButton" onclick="hideText()">When you press the button, the text disappears!</button>
+            <div id="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident neque, error accusamus in, placeat eveniet. In iure enim alias tenetur voluptate velit. Harum modi expedita earum necessitatibus, pariatur vel, nesciunt.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa consectetur dolores, esse, illum facilis error. Enim itaque fugiat, est consectetur voluptate cum tempora, obcaecati esse nobis, non, facere quisquam?</p>
+            </div>
+        </div>
+        <button id="button" onclick="hideButton()">When pressed, the button disappears!</button>
+        <div id="list">
+            <ul>
+                <li><a href="#hiddenBlock" onclick="showBlock()">Університет</a></li>
+            </ul>
+            <div id="hiddenBlock">
+                <ul>
+                    <li><a href="">кафедра ІСМ</a></li>
+                    <li><a href="">кафедра ЕСМ</a></li>
+                    <li><a href="">кафедра політологі</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="task1.js"></script></html>
